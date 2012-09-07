@@ -214,6 +214,7 @@ def get_stats(subpopulation,hardcore = False):
     return output_dict
 
 def parallel_run(inputs):
+    #import math, os
     num_iters = inputs['num_iters']
     folder = inputs['folder']
     zfill_amt = int(math.floor(math.log10(inputs['num_iters'])))
