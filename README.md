@@ -9,6 +9,7 @@ this is challenging to work with.
 The code can be executed with 4 engines (yielding a NameError) using the commands
 
 $ ipcluster start --n=4
+
 $ python wrapper_wrapper.py
 
 It was run on Windows 7, 32-bit Python 2.7.3, IPython 0.13
